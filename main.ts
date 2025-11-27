@@ -19,4 +19,7 @@ timer.after(10000, function () {
     100,
     false
     )
+    timer.after(10000, function () {
+    	
+    })
 })

@@ -20,6 +20,11 @@ timer.after(10000, function () {
     false
     )
     timer.after(10000, function () {
-    	
+        animation.runImageAnimation(
+        mySprite,
+        assets.animation`Greedy Pirates Promo`,
+        100,
+        false
+        )
     })
 })
